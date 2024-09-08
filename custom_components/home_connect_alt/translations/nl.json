@@ -91,19 +91,19 @@
   "entity": {
     "button": {
       "start_program": {
-        "name": "Start Program"
+        "name": "Start Programma"
       },
       "pause_program": {
-        "name": "Pause Program"
+        "name": "Pauzeer Programma"
       },
       "resume_program": {
-        "name": "Resume Program"
+        "name": "Hervat Programma"
       },
       "stop_program": {
-        "name": "Stop Program"
+        "name": "Stop Programma"
       },
       "hc_refresh": {
-        "name": "Home Connect Refresh"
+        "name": "Home Connect Verversen"
       },
       "hc_debug_info": {
         "name": "Home Connect Dump Debug Info"
@@ -252,16 +252,16 @@
           "LaundryCare.Washer.EnumType.SpinSpeed.Auto": "Auto",
           "LaundryCare.Washer.EnumType.SpinSpeed.Max": "Max",
           "LaundryCare.Washer.EnumType.SpinSpeed.Off": "Uit",
-          "LaundryCare.Washer.EnumType.SpinSpeed.RPM1000": "1000 RPM",
-          "LaundryCare.Washer.EnumType.SpinSpeed.RPM1200": "1200 RPM",
-          "LaundryCare.Washer.EnumType.SpinSpeed.RPM1400": "1400 RPM",
-          "LaundryCare.Washer.EnumType.SpinSpeed.RPM1500": "1500 RPM",
-          "LaundryCare.Washer.EnumType.SpinSpeed.RPM1600": "1600 RPM",
-          "LaundryCare.Washer.EnumType.SpinSpeed.RPM400": "400 RPM",
-          "LaundryCare.Washer.EnumType.SpinSpeed.RPM600": "600 RPM",
-          "LaundryCare.Washer.EnumType.SpinSpeed.RPM700": "700 RPM",
-          "LaundryCare.Washer.EnumType.SpinSpeed.RPM800": "800 RPM",
-          "LaundryCare.Washer.EnumType.SpinSpeed.RPM900": "900 RPM",
+          "LaundryCare.Washer.EnumType.SpinSpeed.RPM1000": "1000 tpm",
+          "LaundryCare.Washer.EnumType.SpinSpeed.RPM1200": "1200 tpm",
+          "LaundryCare.Washer.EnumType.SpinSpeed.RPM1400": "1400 tpm",
+          "LaundryCare.Washer.EnumType.SpinSpeed.RPM1500": "1500 tpm",
+          "LaundryCare.Washer.EnumType.SpinSpeed.RPM1600": "1600 tpm",
+          "LaundryCare.Washer.EnumType.SpinSpeed.RPM400": "400 tpm",
+          "LaundryCare.Washer.EnumType.SpinSpeed.RPM600": "600 tpm",
+          "LaundryCare.Washer.EnumType.SpinSpeed.RPM700": "700 tpm",
+          "LaundryCare.Washer.EnumType.SpinSpeed.RPM800": "800 tpm",
+          "LaundryCare.Washer.EnumType.SpinSpeed.RPM900": "900 tpm",
           "LaundryCare.Washer.EnumType.SpinSpeed.UlHigh": "Hoog",
           "LaundryCare.Washer.EnumType.SpinSpeed.UlLow": "Laag",
           "LaundryCare.Washer.EnumType.SpinSpeed.UlMedium": "Medium",
@@ -270,7 +270,7 @@
           "LaundryCare.Washer.EnumType.Stains.On": "Aan",
           "LaundryCare.Washer.EnumType.Stains.Perspiration": "Transpiratie",
           "LaundryCare.Washer.EnumType.Temperature.Auto": "Auto",
-          "LaundryCare.Washer.EnumType.Temperature.Cold": "Cold",
+          "LaundryCare.Washer.EnumType.Temperature.Cold": "Koud",
           "LaundryCare.Washer.EnumType.Temperature.GC20": "20°C",
           "LaundryCare.Washer.EnumType.Temperature.GC30": "30°C",
           "LaundryCare.Washer.EnumType.Temperature.GC40": "40°C",
@@ -288,7 +288,7 @@
           "LaundryCare.Washer.EnumType.WaterAndRinsePlus.Plus1": "+1",
           "LaundryCare.Washer.EnumType.WaterAndRinsePlus.Plus2": "+2",
           "LaundryCare.Washer.EnumType.WaterAndRinsePlus.Plus3": "+3",
-          "LaundryCare.Washer.Option.SpinSpeed": "Omwentellingsnelheid",
+          "LaundryCare.Washer.Option.SpinSpeed": "Centrifugesnelheid",
           "LaundryCare.Washer.Option.Temperature": "Temperatuur"
         }
       },
@@ -334,25 +334,26 @@
           "Cooking.Common.Program.Hood.Venting": "Ventilatie",
           "Cooking.Hob.Program.PowerLevelMode": "Power-Level Mode",
           "Cooking.Oven.Program.Cleaning.Ecolysis": "Reinigingsfunctie",
-          "Cooking.Oven.Program.HeatingMode.BottomHeating": "Onder Verwarmen",
+          "Cooking.Oven.Program.Cleaning.Drying": "Droogfunctie",
+          "Cooking.Oven.Program.HeatingMode.BottomHeating": "Onderverwarming",
           "Cooking.Oven.Program.HeatingMode.Defrost": "Ontdooien",
-          "Cooking.Oven.Program.HeatingMode.Desiccation": "Uitdroging",
-          "Cooking.Oven.Program.HeatingMode.FrozenHeatupSpecial": "Bevroren Opwarmen",
+          "Cooking.Oven.Program.HeatingMode.Desiccation": "Drogen",
+          "Cooking.Oven.Program.HeatingMode.FrozenHeatupSpecial": "CoolStart Functie",
           "Cooking.Oven.Program.HeatingMode.GrillLargeArea": "Grill, Groot Gebied",
           "Cooking.Oven.Program.HeatingMode.HotAir": "Hete Lucht",
           "Cooking.Oven.Program.HeatingMode.HotAirEco": "Hete Lucht Eco",
-          "Cooking.Oven.Program.HeatingMode.HotAirGentle": "Zachte Hete Lucht",
+          "Cooking.Oven.Program.HeatingMode.HotAirGentle": "Hete Lucht Langzaam",
           "Cooking.Oven.Program.HeatingMode.HotAirGrilling": "Hete Lucht Grillen",
           "Cooking.Oven.Program.HeatingMode.IntensiveHeat": "Intensieve Hitte",
           "Cooking.Oven.Program.HeatingMode.KeepWarm": "Warmhouden",
           "Cooking.Oven.Program.HeatingMode.LetRest": "Laten Rusten",
-          "Cooking.Oven.Program.HeatingMode.PizzaSetting": "Pizza Instelling",
+          "Cooking.Oven.Program.HeatingMode.PizzaSetting": "Pizzastand",
           "Cooking.Oven.Program.HeatingMode.PreHeating": "Voorverwarmen",
-          "Cooking.Oven.Program.HeatingMode.PreheatOvenware": "Voorverwarmen Servies",
+          "Cooking.Oven.Program.HeatingMode.PreheatOvenware": "Voorverwarmen van ovenschalen",
           "Cooking.Oven.Program.HeatingMode.Proof": "Rijzen",
-          "Cooking.Oven.Program.HeatingMode.SlowCook": "Langzaam Koken",
-          "Cooking.Oven.Program.HeatingMode.TopBottomHeating": "Onder Boven Verwarmen",
-          "Cooking.Oven.Program.HeatingMode.TopBottomHeatingEco": "Onder Boven Verwarmen Eco",
+          "Cooking.Oven.Program.HeatingMode.SlowCook": "Langzaam garen",
+          "Cooking.Oven.Program.HeatingMode.TopBottomHeating": "Boven/onderverwarming",
+          "Cooking.Oven.Program.HeatingMode.TopBottomHeatingEco": "Boven/onderverwarming Eco",
           "Cooking.Oven.Program.HeatingMode.WarmingDrawer": "Warmhoudlade",
           "Dishcare.Dishwasher.Program.Auto1": "Auto 35-45°C",
           "Dishcare.Dishwasher.Program.Auto2": "Auto 45-65°C",
@@ -364,10 +365,10 @@
           "Dishcare.Dishwasher.Program.GlassCare": "Glasverzorging",
           "Dishcare.Dishwasher.Program.Intensiv45": "Intensief 45°C",
           "Dishcare.Dishwasher.Program.Intensiv70": "Intensief 70°C",
-          "Dishcare.Dishwasher.Program.IntensivPower": "Intensief Vermogen",
+          "Dishcare.Dishwasher.Program.IntensivPower": "Intensief Krachtig",
           "Dishcare.Dishwasher.Program.Kurz60": "Express 60°C",
           "Dishcare.Dishwasher.Program.LearningDishwasher": "Intelligent",
-          "Dishcare.Dishwasher.Program.MachineCare": "Machine Onderhoud",
+          "Dishcare.Dishwasher.Program.MachineCare": "Machineonderhoud",
           "Dishcare.Dishwasher.Program.MagicDaily": "Magic Daily",
           "Dishcare.Dishwasher.Program.MaximumCleaning": "Maximaal Reinigen",
           "Dishcare.Dishwasher.Program.MixedLoad": "Mixed Load",
